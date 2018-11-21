@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #5b4a02;
+}
+
+div {
+    display: block;
+}
+
+.main-menu {
+    background-color: #7e6000;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    display: block;
+}
+
+.logo {
+    background-color: #7e6000;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 90px;
+    font-family: "Comic Sans MS";
+    color: #fffcfb;
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+    color: #634219;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.content .container {
+    display: block;
+    background-color: white;
+    width: 860px;
+    padding: 50px;
+}
+
+.image {
+    width: 244px;
+    height: 245px;
+    background-color: #7e6000;
+    margin: 20px;
+    display: inline-block;
+}
+
+.image-container {
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border-top-style: dotted;
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    color: #634219;
+    padding: 20px 0px;
+}
+
+@media only screen and (max-width: 650px) {
+    ul li {
+        display: block;
+
+        line-height: 35px;
+    }
+
+    .image {
+        display: block;
+    }
+
+    p {
+        overflow: scroll;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .content .container {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 800px) {
+    ul li {
+        display: inline-block;
+        line-height: 35px;
+    }
+
+    .image {
+        display: inline-block;
+    }
+
+    p {
+        overflow: scroll;
+    }
+
+    .container {
+        width: 580px;
+    }
+
+    .content .container {
+        width: 580px;
+    }
+}
